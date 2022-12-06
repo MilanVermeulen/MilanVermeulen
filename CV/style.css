@@ -1,0 +1,82 @@
+body{
+    background: url(cvbackground.jpg);
+    background-size: cover; 
+    background-repeat: no-repeat;
+    font-family: arial;
+    padding: 5px;
+    margin: 0;
+}
+
+.icon{
+    float: left;
+    font-weight: 100;
+    font-size: 100px;
+}
+
+.header{
+    
+    background-image: url(cvbackground2.jpg);
+    padding: 30px;
+    background-size: cover;
+    text-align: center;
+    margin-top: -10px;
+    font-size: 1.5rem;
+}
+
+.navigation{
+    width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1rem;
+}
+
+a.anav{
+    font-size: 1rem;
+    background-color: white;
+    padding: 5px;
+    border-radius: 25px;
+}
+a.anav:hover {
+    background-color: rgb(176, 224, 215);
+}
+
+.footer {
+        position: fixed;
+        left: 0;
+        bottom: 0;
+        width: 100%;
+        background-color: beige;
+        color:black;
+        padding: 11px;
+        text-align: center;
+        font-size: 1rem;
+        margin-top: 100px;
+    }
+.content{
+    width: 600px;
+    text-align: center;
+    color: black;
+    padding: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 1.4em;
+}
+h1{
+font-size: 4rem;
+}
+h2{
+    font-size: 2.3rem;
+}
+h3{
+    font-size: 2rem;
+}
+#contact{
+    margin-bottom: 60px;
+}
+a{
+    text-decoration: 0;
+    color: black;
+}
+html {
+    scroll-behavior: smooth;
+  }
